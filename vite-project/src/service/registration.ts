@@ -1,4 +1,5 @@
 import axios from 'axios'
+import IRegistration from '../interfaceD/IRegistration';
 
 async function registrationData(data:IRegistration)
 {

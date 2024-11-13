@@ -19,7 +19,7 @@ import { PayloadAction } from '@reduxjs/toolkit'
 
 }
 
- function* registrationaync()
+ export function* registrationaync()
 {
     yield takeEvery(registrationRequest,watcherRegistration)
 }

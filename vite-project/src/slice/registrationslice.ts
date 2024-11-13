@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-
+import IRegistration from '../interfaceD/IRegistration'
 interface IRegistrationSlice
 {
     data: IRegistration,
@@ -9,7 +9,8 @@ interface IRegistrationSlice
 
 const initialState : IRegistrationSlice = 
 {    
-data:{
+data:
+{
     confirmpass: "",
     email: "",
     firstname: "",

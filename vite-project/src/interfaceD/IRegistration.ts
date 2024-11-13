@@ -1,4 +1,4 @@
-interface IRegistration
+export default interface IRegistration
 {
     firstname: string
     lastname: string
